@@ -1,15 +1,15 @@
 # PurchAPI
 Laravel API with Oauth2 
 
-#PRODUCT-PURCHASE API
+**PRODUCT-PURCHASE API**
 
 The API was developed using PHP laravel in docker and we can find the source code on Github:  https://github.com/nzajos/PurchAPI/tree/master 
 
 
-#1.Requests (All)
+**1.Requests (All)**
 #Content-type: application/json
 
-#2.Oauth2 REGISTRATION 
+**2.Oauth2 REGISTRATION **
 
 #2.1 Request sample    POST:  http://localhost/api/user/signup
 
