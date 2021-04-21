@@ -7,6 +7,7 @@ The API was developed using PHP laravel in docker and we can find the source cod
 
 
 **1.Requests (All)**
+
 Content-type: application/json
 
 **2.Oauth2 REGISTRATION **
