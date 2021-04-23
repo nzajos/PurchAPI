@@ -10,7 +10,7 @@ The API was developed using PHP laravel in docker and we can find the source cod
 
 Content-type: application/json
 
-**2.Oauth2 REGISTRATION **
+**2.Oauth2 REGISTRATION** 
 
 #2.1 Request sample    POST:  http://localhost/api/user/signup
 
