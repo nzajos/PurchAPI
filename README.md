@@ -12,7 +12,7 @@ Content-type: application/json
 
 **2.Oauth2 REGISTRATION** 
 
-#2.1 Request sample    POST:  http://localhost/api/user/signup
+2.1 Request sample    POST:  http://localhost/api/user/signup
 
 { "name": "josue",
 "email": "nzajos3@gmail.com",
@@ -21,13 +21,14 @@ Content-type: application/json
 
 
 
-#2.2 Successfully created user
+2.2 Successfully created user
+
 {
     "message": "Successfully created user!"
 }
 
 
-#2.3 User duplication
+2.3 User duplication
 
 {
     "message": "The given data was invalid.",
@@ -39,7 +40,7 @@ Content-type: application/json
 }
 
 
-#3. Login
+**3. Login**
 #3.1 POST:  http://localhost/api/user/login
 
 #3.2 Request sample
