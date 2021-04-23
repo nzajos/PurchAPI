@@ -88,6 +88,7 @@ Content-type: application/json
 4.4 Get product list    (order by product name)
 
 GET:    http://localhost/api/product/productlist
+
 [
     {
         "id": 3,
@@ -104,7 +105,9 @@ GET:    http://localhost/api/product/productlist
 ]
 
 **5. PURCHASER** 
-5.1 Purchaser registration   POST:  http://localhost/api/purchaser/store
+
+5.1 Purchaser registration  
+POST:  http://localhost/api/purchaser/store
 
 {"name": "Nzajyayo"}
 
@@ -131,7 +134,8 @@ GET:  http://localhost/api/purchaser/purchaserlist
 
 **6.Purchase Product**
 
-8.1 Request POST: http://localhost/api/purchaser_product/store
+6.1 Request POST: http://localhost/api/purchaser_product/store
+
 { "purchase_id": 1,
 "product_id": 2,
 "purchase_timestamp": 1566265701 }
@@ -144,6 +148,7 @@ GET:  http://localhost/api/purchaser/purchaserlist
 6.3 List of purchase-product
 
 Request sample   GET:http://localhost/api/purchaser_product/purchaserlist
+
 [{
         "id": 6,
         "product_id": 2,
@@ -154,9 +159,10 @@ Request sample   GET:http://localhost/api/purchaser_product/purchaserlist
     }]
 
 
-7.  Purchase product without start and end date
+**7. Purchase product without start and end date**
 
 GET:  http://localhost/api/purchaser/1/product    (1 is the purchaser id)
+
 {
     "purchases": {
         "2021-03-11 00:00:00": [
@@ -192,7 +198,8 @@ GET:  http://localhost/api/purchaser/1/product    (1 is the purchaser id)
 
 
 
-#7.1  Purchase product with start and end date
+7.1  Purchase product with start and end date
+
 GET: http://localhost/api/purchaser/1/product?start_date=1566265601&end_date=1566265702
 
 {
